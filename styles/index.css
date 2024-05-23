@@ -1,0 +1,58 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  scroll-padding-top: 37.6px;
+
+  background: rgb(255, 237, 237);
+  background: linear-gradient(
+    250deg,
+    rgba(255, 237, 237, 1) 0%,
+    rgb(110, 202, 219) 100%
+  );
+  color: rgba(16, 14, 14, 0.812);
+}
+
+::selection {
+  background-color: white;
+  color: rgb(44, 169, 169);
+}
+h1 {
+  font-size: 80px;
+  font-family: impact;
+  color: rgb(44, 169, 169);
+}
+.btun {
+  background-color: rgb(44, 169, 169);
+  border-radius: 10px;
+  border: 2px solid transparent;
+  color: white;
+  transition: all 0.5s;
+}
+.btun:hover {
+  background-color: transparent;
+  border: 2px solid rgb(121, 253, 255);
+  background-color: rgba(121, 255, 255, 0.795);
+}
+
+.qoute-auth {
+  box-shadow: 9px 15px 37px -12px rgba(54, 134, 148, 0.725);
+  -webkit-box-shadow: 9px 15px 37px -12px rgba(42, 107, 119, 0.745);
+  -moz-box-shadow: 9px 15px 37px -12px rgba(42, 107, 119, 0.745);
+}
+.qoute-auth p {
+  font-family: SimpleThings !important;
+}
+
+@font-face {
+  font-family: impact;
+  src: url(../fonts/impact.ttf);
+}
+@font-face {
+  font-family: SimpleThings;
+  src: url(../fonts/Batang\ Tebo.otf);
+}
